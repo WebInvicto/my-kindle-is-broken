@@ -54,3 +54,18 @@ a {
 .screen_content {
     margin-top: 2rem;
 }
+
+.title{
+    text-align: center;
+}
+
+.covers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background: none;
+    border: none;
+    font-family: monospace;
+}
