@@ -36,7 +36,7 @@
                         <!-- A chaque itération, un lien contenant l'image de l'élément courant sera créé --> 
                         <a href="#"><img src="images/<?= $index ?>.jpg" alt="Couverture du livre <?= $book["titre"] ?>"></a>
                     
-                    <!-- Je n'oublie pas de fermé la boucle -->
+                    <!-- Je n'oublie pas de fermer la boucle -->
                     <?php endforeach; ?>
 
                     <!-- J'ajoute le bouton pour changer la vue (non fonctionnel pour l'instant) -->
