@@ -75,3 +75,31 @@ h2.subtitle{
     font-family: monospace;
 }
 
+.list,
+.none{
+    display : none
+}
+
+ul {
+    list-style: none;
+    line-height: 1.2rem;
+    padding : 0;
+}
+
+
+
+.block{
+    display : block;
+}
+
+span.author{
+    font-size: small;
+    font-style: italic;
+    margin-right: 1rem;
+}
+
+span.year{
+    color: gray;
+    font-size: small;
+}
+

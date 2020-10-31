@@ -40,4 +40,3 @@ Il suffisait que je clique sur « Changer de vue » en bas.
 
 Indice général : pour toutes les étapes, en plus de PHP et JS, vous devrez aussi utiliser CSS afin que ça ressemble le plus possible aux [résultats attendus](resultat) :pray:
 
-La `correction` est disponible sur la branche du même nom !
