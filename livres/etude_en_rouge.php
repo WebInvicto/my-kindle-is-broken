@@ -1,6 +1,6 @@
-
-<h1>Chapitre premier</h1>
-<h2>M. Sherlock Holmes</h2>
+<!-- J'ajoute une class au h1 et au h2 pour gérer la mise en forme -->
+<h1 class="title">Chapitre premier</h1>
+<h2 class="subtitle">M. Sherlock Holmes</h2>
  
 
 <p>En 1878, reçu médecin à l’Université de Londres, je me rendis à Netley pour suivre les cours prescrits aux chirurgiens de l’armée ; et là, je complétai mes études. On me désigna ensuite, comme aide-major, pour le 5e régiment de fusiliers de Northumberland en garnison aux Indes.</p>

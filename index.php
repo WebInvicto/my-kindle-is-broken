@@ -18,31 +18,45 @@
                     </div>
                 </div>
                 <div class="screen_content">
-                  <!-- Ajout du h1 -->
+                <?php require 'books.php'; ?>
+
+                 <!-- Je check si l'index 'book' n'existe pas dans $_GET -->
+                  <?php if(!$_GET['book']) : ?>
+                  
+                 <!-- Alors j'affiche le contenu d'acceuil avec les couvertures des livres -->
+
                   <h1 class="title">Ma liste de livres</h1>
 
-                  <!-- Ajout d'une div qui va me permettre de gérer la mise en forme des images-->
+                 
                   <div class="covers">
                     <?php 
-                    
-                    // Je dois récupérer le fichier dans lequel se trouve la variable dont j'ai besoin.
-                    require 'books.php'; 
-                    
-                    // Ensuite je dois creer une image cliquable (anticipation etape 2) pour chaque élément du tableau $books.
-                    // Je creer donc une boucle foreach.
+                                      
+                  
                     foreach($books as $index => $book) : 
                     
                     ?>
-                        <!-- A chaque itération, un lien contenant l'image de l'élément courant sera créé --> 
-                        <a href="#"><img src="images/<?= $index ?>.jpg" alt="Couverture du livre <?= $book["titre"] ?>"></a>
+                       
+                       <!-- Dans le href du lien ci-dessous, je passe $index en GET(?) -->
+                        <a href="?book=<?= $index ?>"><img src="images/<?= $index ?>.jpg" alt="Couverture du livre <?= $book["titre"] ?>"></a>
                     
-                    <!-- Je n'oublie pas de fermer la boucle -->
+                    
                     <?php endforeach; ?>
-
-                    <!-- J'ajoute le bouton pour changer la vue (non fonctionnel pour l'instant) -->
+                    
                     <button class="btn">Changer de vue</button>
                   </div>
-                    
+
+                  <!-- Sinon si l'index 'book' existe dans $_GET et si sa valeur correspond à un index du tableau $book -->
+                  <?php elseif(array_key_exists($_GET['book'], $books)) : 
+
+                            // Alors je charge le fichier php correspondant
+                            include 'livres/'. $_GET['book'] . '.php';
+
+                        else :
+                            // Sinon j'affiche un message d'erreur dans le cas ou l'utilisateur s'amuse à chercher une url inexistante
+                            echo 'Votre livre n\'existe pas';
+
+                        endif; 
+                   ?>
 
                 </div>
             </div>

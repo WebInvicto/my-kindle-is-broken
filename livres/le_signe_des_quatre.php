@@ -1,5 +1,6 @@
-<h1>Chapitre I</h1>
-<h2>La déduction est une science</h2>
+<!-- J'ajoute une class au h1 et au h2 pour gérer la mise en forme -->
+<h1 class="title">Chapitre I</h1>
+<h2 class="subtitle">La déduction est une science</h2>
 <p>Sherlock Holmes prit la bouteille au coin de la cheminée
 puis sortit la seringue hypodermique de son étui de cuir. Ses
 longs doigts pâles et nerveux préparèrent l’aiguille avant de

@@ -1,5 +1,6 @@
-<h1>CHAPITRE I</h1>
-<h2>MONSIEUR SHERLOCK HOLMES</h2>
+<!-- J'ajoute une class au h1 et au h2 pour gérer la mise en forme -->
+<h1 class="title">CHAPITRE I</h1>
+<h2 class="subtitle">MONSIEUR SHERLOCK HOLMES</h2>
 
 <p>M. SHERLOCK HOLMES se levait habituellement fort
 tard, sauf lorsqu’il ne dormait pas de la nuit, ce qui lui arrivait

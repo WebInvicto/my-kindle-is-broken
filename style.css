@@ -59,6 +59,11 @@ a {
     text-align: center;
 }
 
+h2.subtitle{
+    color : rgb(20, 20, 20);
+    text-align: center;
+}
+
 .covers{
     display: flex;
     flex-wrap: wrap;
@@ -69,3 +74,4 @@ a {
     border: none;
     font-family: monospace;
 }
+

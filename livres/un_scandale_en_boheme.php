@@ -1,4 +1,5 @@
-<h1>I</h1>
+<!-- J'ajoute une class au h1 et au h2 pour gérer la mise en forme -->
+<h1 class="title">I</h1>
 <p>Pour Sherlock Holmes, elle est toujours la femme. Il la juge
 tellement supérieure à tout son sexe, qu’il ne l’appelle presque
 jamais par son nom ; elle est et elle restera la femme.

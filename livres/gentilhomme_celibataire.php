@@ -1,4 +1,5 @@
-<h1>Le gentilhomme célibataire </h1>
+<!-- J'ajoute une class au h1 pour gérer la mise en forme -->
+<h1 class="title">Le gentilhomme célibataire </h1>
 <p>Le mariage de lord Saint-Simon et son curieux dénouement
 ont depuis longtemps cessé d’intéresser les cercles aristocratiques
 au milieu desquels évolue celui qui fut le héros de cette

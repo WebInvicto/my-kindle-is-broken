@@ -1,4 +1,5 @@
-<h1>L’escarboucle bleue</h1>
+<!-- J'ajoute une class au h1 pour gérer la mise en forme -->
+<h1 class="title">L’escarboucle bleue</h1>
 <p>C’était le surlendemain de Noël. Je m’étais rendu chez mon
 ami Sherlock Holmes, afin de lui présenter les vœux d’usage en
 cette période de l’année. Je le trouvai en robe de chambre
